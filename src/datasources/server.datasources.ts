@@ -1,8 +1,8 @@
 import {inject, lifeCycleObserver, LifeCycleObserver} from "@loopback/core"
 import { juggler } from "@loopback/repository"
-// import dotenv from "dotenv"
-import path from "path"
+import dotenv from "dotenv"
 
+dotenv.config()
 
 const config = {
   name: "mongodb",
